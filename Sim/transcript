@@ -1,0 +1,82 @@
+# Reading C:/questasim_10.1d/tcl/vsim/pref.tcl 
+# //  Questa Sim
+# //  Version 10.1d win32 Nov  1 2012
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/l5q3.mpf 
+# Loading project l5q3
+# Compile of l5q3.v was successful.
+vsim -novopt test
+# vsim -novopt test 
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.test
+# Loading work.test
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.final12
+# Loading work.final12
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.s1
+# Loading work.s1
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.s2
+# Loading work.s2
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.counter
+# Loading work.counter
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.adder
+# Loading work.adder
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.s3
+# Loading work.s3
+# Refreshing C:/Users/Admin/Desktop/VERILOG/Lab_Work/B/Lab5/Q3/Sim/work.s4
+# Loading work.s4
+add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Admin  Hostname: DVLSIPC2  ProcessID: 6056
+# 
+#           Attempting to use alternate WLF file "./wlftm5nahx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftm5nahx
+# 
+# (vish-4014) No objects found matching '*'.
+add wave *
+# (vish-4014) No objects found matching '*'.
+add wave -position end  sim:/test/x1/a
+add wave -position end  sim:/test/x1/b
+add wave -position end  sim:/test/x1/op
+add wave -position end  sim:/test/x1/valid
+add wave -position end  sim:/test/x1/clk
+add wave -position end  sim:/test/x1/reset
+add wave -position end  sim:/test/x1/load
+add wave -position end  sim:/test/x1/x
+add wave -position end  sim:/test/x1/y
+add wave -position end  sim:/test/x1/z
+add wave -position end  sim:/test/x1/s
+add wave -position end  sim:/test/x1/po
+add wave -position end  sim:/test/x1/lo
+add wave -position end  sim:/test/x1/c
+add wave -position end  sim:/test/x1/v1
+add wave -position end  sim:/test/x1/l
+add wave -position end  sim:/test/x1/t
+add wave -position end  sim:/test/x1/v
+run 1100
+# Incorrect operation
+# the product of a=255 ,b=255  is p=65025
+# Incorrect operation
+# the product of a=128 ,b=128  is p=16384
+# the product of a=128 ,b=  0  is p=    0
+# the product of a=128 ,b=  0  is p=    0
+# Incorrect operation
+# the product of a=128 ,b=  1  is p=  128
+# Incorrect operation
+# the product of a= 25 ,b=  5  is p=  125
+# Incorrect operation
+# the product of a= 64 ,b= 64  is p= 4096
+# Incorrect operation
+# the product of a= 36 ,b= 36  is p= 1296
+# Incorrect operation
+# the product of a= 11 ,b= 33  is p=  363
+# Incorrect operation
+# the product of a= 80 ,b= 10  is p=  800

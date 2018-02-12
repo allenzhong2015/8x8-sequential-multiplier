@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"C:\Users\Admin\Desktop\VERILOG\Lab_Work\B\Lab5\Q3\Src\l5q3.v" Line 143: Signal &lt;<arg fmt="%s" index="1">op</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"C:\Users\Admin\Desktop\VERILOG\Lab_Work\B\Lab5\Q3\Src\l5q3.v" Line 144: Signal &lt;<arg fmt="%s" index="1">a</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Users\Admin\Desktop\VERILOG\Lab_Work\B\Lab5\Q3\Src\l5q3.v" Line 136: Net &lt;<arg fmt="%s" index="1">v</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">v</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+</messages>
+
